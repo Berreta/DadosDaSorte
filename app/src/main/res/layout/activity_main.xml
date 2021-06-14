@@ -44,6 +44,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.377"
         app:srcCompat="@drawable/dice_1" />
+
     <TextView
         android:id="@+id/WelcomeMessage"
         android:layout_width="wrap_content"
@@ -56,5 +57,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.122" />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/shareBttn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:text="@string/start_bttn"
+        app:layout_constraintBottom_toTopOf="@+id/btnJogar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_share" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
